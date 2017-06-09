@@ -13,8 +13,13 @@
 .boxContainer{
   display: flex;
   flex-wrap: wrap;
+  flex:1 0 auto;
   justify-content: space-between;
   margin: 0 2% 0 2%;
+}
+.middle{
+  margin-right: -1%;
+  margin-left: -1%;
 }
 .box{
   background-color: #7EB0A5;
@@ -27,7 +32,7 @@
   display: flex;
   background-color: #E4EFD1;
   height:150px;
-  position: absolute;
+  position:fixed;
   right:0;
   left:0;
   bottom:0;
