@@ -31,9 +31,9 @@ body {
 .box{
   background-color: #7EB0A5;
   margin: 2% 1%;
-  height: 250px;
-  width: 250px;
-  padding:58px 58px;
+  height: 200px;
+  width: 200px;
+  padding:25px 25px;
 
 }
 .footer{
@@ -50,7 +50,15 @@ body {
   font-size: 28px;
 }
 
-@media (max-width: 815px){
+@media (max-width: 1155px) {
+  .box{
+    height:270px;
+    width:270px;
+    padding: 25px 25px;
+  }
+}
+
+@media (max-width: 715px){
   .boxContainer{
     display:flex;
     flex-direction: column;
