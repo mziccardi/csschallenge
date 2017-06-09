@@ -1,7 +1,6 @@
 .headerContainer{
   background-color: #7E87B2;
   height: 110px;
-  /*height: 50%;*/
   display: flex;
 }
 .title{
@@ -10,23 +9,23 @@
   align-items: center;
   margin-left: 1%;
 }
+.contentContainer{
+  margin:0 2% 0 2%;
+}
 .boxContainer{
+  /*margin-top: 2%;*/
   display: flex;
   flex-wrap: wrap;
-  flex:1 0 auto;
   justify-content: space-between;
-  margin: 0 2% 0 2%;
 }
-.middle{
-  margin-right: -1%;
-  margin-left: -1%;
-}
+
 .box{
   background-color: #7EB0A5;
-  margin-top: 2%;
-  display: flex;
+  margin: 2% 1%;
   height: 250px;
   width: 250px;
+  padding:0 50px;
+
 }
 .footer{
   display: flex;
