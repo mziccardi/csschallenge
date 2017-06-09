@@ -7,6 +7,7 @@ body {
 }
 
 .headerContainer{
+  width:100%;
   background-color: #7E87B2;
   height: 110px;
   display: flex;
@@ -47,4 +48,13 @@ body {
   align-items: center;
   margin-left: 1%;
   font-size: 28px;
+}
+
+@media (max-width: 815px){
+  .boxContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
