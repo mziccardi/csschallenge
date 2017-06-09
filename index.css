@@ -5,6 +5,7 @@
 }
 .title{
   display: flex;
+  font-family: sans
   color: white;
   align-items: center;
   margin-left: 1%;
@@ -24,7 +25,7 @@
   margin: 2% 1%;
   height: 250px;
   width: 250px;
-  padding:0 50px;
+  padding:58px 58px;
 
 }
 .footer{
@@ -37,7 +38,10 @@
   bottom:0;
 }
 .footerContent{
+  font-family: sans-serif;
   display: flex;
-  color:purple;
+  color:#AB52BA;
   align-items: center;
+  margin-left: 1%;
+  font-size: 28px;
 }
